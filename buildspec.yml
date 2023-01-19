@@ -22,7 +22,7 @@ phases:
       - IMAGE_URI=$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME
       - docker tag $IMAGE_REPO_NAME:$IMAGE_TAG $IMAGE_URI:IMAGE_TAG
       - docker push $IMAGE_URI:IMAGE_TAG
-      - echo "[{\"name\":\"mynginx\",\"imageUri\":\"$IMAGE_URI\"}]" > imagedefinitions.json
+      - echo "[{\"name\":\"test-container-1\",\"imageUri\":\"$IMAGE_URI\"}]" > imagedefinitions.json
 
 artifacts:
   files:
