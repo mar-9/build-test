@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     AWS_DEFAULT_REGION: ap-northeast-1
-    AWS_ACCOUNT_ID: xxxxxxxxxxxx
+    AWS_ACCOUNT_ID: 861270473614
     IMAGE_REPO_NAME: mynginx
     IMAGE_TAG: latest
 
